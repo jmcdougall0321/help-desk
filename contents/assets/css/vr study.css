@@ -1,0 +1,40 @@
+a.Hyperlink {
+    color: #FF4D00;
+    background: #FFFFFF;
+    font-family: whitney-medium;
+    font-size: 13.5pt;
+    font-style: normal;
+    font-weight: normal;
+    margin: 0;
+    padding: 0
+}
+ul.List0 {
+counter-reset: section01;
+--prefix-size: 40px;
+--prefix-gap: 4px;
+--list-indent: 40px;
+--prefix-fixed-size: false;
+list-style:none;
+padding-left: var(--prefix-size);
+margin-left: calc(var(--list-indent) - var(--prefix-size))
+}
+body {}
+span { white-space: pre-wrap
+}
+ul.List0>li {
+ position: relative
+}
+ul.List0>li::before {
+counter-increment: section01;
+content:counter(bullet,disc);
+--prefix-size: 40px;
+--prefix-gap: 4px;
+--list-indent: 40px;
+--prefix-fixed-size: false;
+text-align: right;
+position: absolute;
+left: calc(-1 * var(--prefix-size) - var(--prefix-gap));
+margin-right: var(--prefix-gap);
+width: var(--prefix-size);
+overflow: hidden
+}
