@@ -1,0 +1,224 @@
+
+  
+     
+     
+    
+      ‎ 
+    ECM70_INSURANCE_TPA Location Input Form > Claim Submission Details Mini Tab>Insurance TPA
+    
+      Table to control which TPA(s) are active to appear on Location Input Form > Claim Submission Details Mini Tab>Insurance TPA dropdown field.
+      
+      [ECM70_TPA_TYPE_N]
+        
+          Types:
+            
+              1=WC
+              2=Auto
+                
+                  ESIS
+                  Zurich
+                  GB
+                  CCMSI
+                  Travelers
+                  Sedgwick
+                
+              
+              3=Fire
+                
+                  ESIS
+                
+              
+              4=Other Incident
+                
+                  ESIS
+                
+              
+              5=Property Damage
+                
+                  ESIS
+                
+              
+              6=Spill
+                
+                  ESIS
+                
+              
+              7=GL
+                
+                  GB
+                
+              
+            
+          
+        
+      
+      Script Sample:
+        USE [BRACETRAINING]
+        GO
+         
+        UPDATE [dbo].[ECM70_INSURANCE_TPA]
+        SET [ECM70_SYS_ACTIVE_F] = 'N'
+        ,[ECM70_SYS_UPDT_USR] = -432
+        ,[ECM70_SYS_UPDT_DTM] = GETDATE()
+        WHERE ECM70_INSURANCE_TPA_ID = 5
+         
+        UPDATE [dbo].[ECM70_INSURANCE_TPA]
+        SET [ECM70_SYS_ACTIVE_F] = 'Y'
+        ,[ECM70_SYS_UPDT_USR] = -432
+        ,[ECM70_SYS_UPDT_DTM] = GETDATE()
+        WHERE ECM70_INSURANCE_TPA_ID = 32
+        GO
+         
+        
+          ‎ 
+        ECM71_ORG_ENTITY_INSURANCE_TPA Location Input Form > Claim Submission Details Mini Tab>Insurance TPA
+      
+      Table to assign/set the TPA on the Claim Submission Details mini tab Insurance TPA field
+      
+      [ECM00_ORG_ENTITY_ID]
+        
+          Location AIC ID
+        
+      
+      [ECM70_INSURANCE_TPA_ID]
+        
+          TPA ID from [ECM70_INSURANCE_TPA] (i.e. 23=Liberty Mutual)
+        
+      
+      Script Sample:
+    
+    USE [BRACE_TEST]
+    GO
+     
+    INSERT INTO [dbo].[ECM71_ORG_ENTITY_INSURANCE_TPA] ([ECM00_ORG_ENTITY_ID],[ECM70_INSURANCE_TPA_ID],[ECM71_SYS_ACTIVE_F],[ECM71_SYS_CREATOR_USR],[ECM71_SYS_CREATED_DTM],[ECM71_SYS_UPDT_USR],[ECM71_SYS_UPDT_DTM],[ECM71_TPA_TYPE_N]) VALUES (1106,32,'Y',-432,GETDATE(),-432,GETDATE(),1)
+    INSERT INTO [dbo].[ECM71_ORG_ENTITY_INSURANCE_TPA] ([ECM00_ORG_ENTITY_ID],[ECM70_INSURANCE_TPA_ID],[ECM71_SYS_ACTIVE_F],[ECM71_SYS_CREATOR_USR],[ECM71_SYS_CREATED_DTM],[ECM71_SYS_UPDT_USR],[ECM71_SYS_UPDT_DTM],[ECM71_TPA_TYPE_N]) VALUES (1095,32,'Y',-432,GETDATE(),-432,GETDATE(),1)
+    INSERT INTO [dbo].[ECM71_ORG_ENTITY_INSURANCE_TPA] ([ECM00_ORG_ENTITY_ID],[ECM70_INSURANCE_TPA_ID],[ECM71_SYS_ACTIVE_F],[ECM71_SYS_CREATOR_USR],[ECM71_SYS_CREATED_DTM],[ECM71_SYS_UPDT_USR],[ECM71_SYS_UPDT_DTM],[ECM71_TPA_TYPE_N]) VALUES (1102,32,'Y',-432,GETDATE(),-432,GETDATE(),1)
+    GO
+     
+    
+      ‎ 
+    ORG_ENTITY Location Input Form > Claim Submission Details Mini Tab>EDI Location Code field
+    
+      Table/Field that populates the EDI Location Code field on the Claim Submission Details mini tab on the Locations Input Form.
+      [GB_CODE]
+        
+          TPA code that appears Location Input Form > Claim Submission Details Mini Tab>EDI Location Code field
+          
+        
+      
+      Script Sample:
+        USE [BRACETRAINING]
+        GO
+         
+        UPDATE [dbo].[ORG_ENTITY] SET [SYS_UPDT_USR] = -432,[SYS_UPDT_DTM] = GETDATE(),[GB_CODE] = '010101XX' WHERE [ORG_ENTITY_ID] = 1093
+        UPDATE [dbo].[ORG_ENTITY] SET [SYS_UPDT_USR] = -432,[SYS_UPDT_DTM] = GETDATE(),[GB_CODE] = '020101XX' WHERE [ORG_ENTITY_ID] = 1113
+        UPDATE [dbo].[ORG_ENTITY] SET [SYS_UPDT_USR] = -432,[SYS_UPDT_DTM] = GETDATE(),[GB_CODE] = '020102XX' WHERE [ORG_ENTITY_ID] = 1109
+        UPDATE [dbo].[ORG_ENTITY] SET [SYS_UPDT_USR] = -432,[SYS_UPDT_DTM] = GETDATE(),[GB_CODE] = '020103XX' WHERE [ORG_ENTITY_ID] = 1097
+        GO
+         
+        
+          ‎ 
+        ORG_ENTITY_CODE Administration>Claim Submission Location Codes
+      
+      Table to assign Code and Description on the Claim Submission Location Codes Form.
+      
+      [ORG_ENTITY_ID]
+        
+          Location AIC ID
+        
+      
+      [CODE]
+        
+          TPA WC Location Code
+        
+      
+      [DESCRIPTION]
+        
+          Location Code description that is displayed in the Location Code dropdown field on the General Details Main Tab.
+          
+        
+      
+      Script Sample
+        USE [BRACETRAINING]
+        GO
+         
+        UPDATE [dbo].[ORG_ENTITY_CODE] SET [CODE] = '010101XX', [DESCRIPTION] = '010101XX' WHERE ORG_ENTITY_CODE_ID = 26
+        UPDATE [dbo].[ORG_ENTITY_CODE] SET [CODE] = '020101XX', [DESCRIPTION] = '020101XX' WHERE ORG_ENTITY_CODE_ID = 45
+        UPDATE [dbo].[ORG_ENTITY_CODE] SET [CODE] = '020102XX', [DESCRIPTION] = '020102XX' WHERE ORG_ENTITY_CODE_ID = 40
+        GO
+         
+        
+          ‎ 
+        IMM203_INCIDENT_MODULE_ORG_ENTITY_CODE Administration>Claim Submission Location Codes
+      
+      Table to assign incident module to Claim Submission Location Codes.
+      
+      [ORG_ENTITY_CODE_ID]
+        
+          Location AIC ID
+        
+      
+      [IMM05_INCIDENT_MODULE_ID]
+        
+          AIC Module ID from [IMM05_INCIDENT_MODULE]
+            
+              Modules:
+                
+                  1 =Injury and Illness (Recordable or Non Recordable)
+                  2=Fires
+                  3=Spills
+                  6=Property Damage
+                  7=Other Incident
+                  9=Vehicle Accident
+                  22=General Liability
+                
+              
+            
+          
+        
+      
+      Script Sample
+    
+    USE [BRACE_TEST]
+    GO
+     
+    INSERT INTO [dbo].[IMM203_INCIDENT_MODULE_ORG_ENTITY_CODE] ([ORG_ENTITY_CODE_ID],[IMM05_INCIDENT_MODULE_ID],[IMM203_SYS_CREATOR_USR],[IMM203_SYS_CREATED_DTM],[IMM203_SYS_UPDT_USR],[IMM203_SYS_UPDT_DTM],[IMM203_SYS_ACTIVE_F]) VALUES (27,1,-432,GETDATE(),-432,GETDATE(),'Y')
+    INSERT INTO [dbo].[IMM203_INCIDENT_MODULE_ORG_ENTITY_CODE] ([ORG_ENTITY_CODE_ID],[IMM05_INCIDENT_MODULE_ID],[IMM203_SYS_CREATOR_USR],[IMM203_SYS_CREATED_DTM],[IMM203_SYS_UPDT_USR],[IMM203_SYS_UPDT_DTM],[IMM203_SYS_ACTIVE_F]) VALUES (26,1,-432,GETDATE(),-432,GETDATE(),'Y')
+    INSERT INTO [dbo].[IMM203_INCIDENT_MODULE_ORG_ENTITY_CODE] ([ORG_ENTITY_CODE_ID],[IMM05_INCIDENT_MODULE_ID],[IMM203_SYS_CREATOR_USR],[IMM203_SYS_CREATED_DTM],[IMM203_SYS_UPDT_USR],[IMM203_SYS_UPDT_DTM],[IMM203_SYS_ACTIVE_F]) VALUES (34,1,-432,GETDATE(),-432,GETDATE(),'Y')
+    INSERT INTO [dbo].[IMM203_INCIDENT_MODULE_ORG_ENTITY_CODE] ([ORG_ENTITY_CODE_ID],[IMM05_INCIDENT_MODULE_ID],[IMM203_SYS_CREATOR_USR],[IMM203_SYS_CREATED_DTM],[IMM203_SYS_UPDT_USR],[IMM203_SYS_UPDT_DTM],[IMM203_SYS_ACTIVE_F]) VALUES (32,1,-432,GETDATE(),-432,GETDATE(),'Y')
+    GO
+     
+    
+      ‎ 
+    ECM115_TPA_CODE_MAPPING
+    
+      Table to map AIC values to TPA values. (certain TPAs, not all – Some TPAs map in each value table (i.e. Nature of Injury, Body Part))
+      [ECM115_TPA_ID]
+        
+          TPA ID from [ECM70_INSURANCE_TPA] (i.e. 23=Liberty Mutual)
+        
+      
+      [ECM115_DATABASE_TABLE_X]
+        
+          Code database table (i.e. MARITAL_STATUS, GENDER)
+        
+      
+      [ECM115_CODE_ID]
+        
+          AIC ID of value (i.e. Gender 1=Female, 2=Male)
+        
+      
+      [ECM115_CODE_X]
+        
+          TPA code of value (i.e. Gender M=Male, F=Female)
+        
+      
+    
+     
+    ECM85_CLAIM_SUBMISSION_SETTING AIC Tool>Claim Submission Settings
+    
+      Table for Claim Submission Settings.
+    
+     
+  
+

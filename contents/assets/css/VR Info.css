@@ -1,0 +1,190 @@
+a.Hyperlink {
+    color: #1F4E79;
+    font-family: Calibri;
+    font-size: 11pt;
+    text-decoration: underline;
+    font-style: normal;
+    font-weight: bold;
+    margin: 0;
+    padding: 0
+}
+ol.List22 {
+counter-reset: section221;
+--prefix-size: 40px;
+--prefix-gap: 4px;
+--list-indent: 40px;
+--prefix-fixed-size: false;
+list-style:none;
+padding-left: var(--prefix-size);
+margin-left: calc(var(--list-indent) - var(--prefix-size))
+}
+ul.List23 {
+counter-reset: section231;
+--prefix-size: 40px;
+--prefix-gap: 4px;
+--list-indent: 40px;
+--prefix-fixed-size: false;
+list-style:none;
+padding-left: var(--prefix-size);
+margin-left: calc(var(--list-indent) - var(--prefix-size))
+}
+ul.List24 {
+counter-reset: section241;
+--prefix-size: 40px;
+--prefix-gap: 4px;
+--list-indent: 40px;
+--prefix-fixed-size: false;
+list-style:none;
+padding-left: var(--prefix-size);
+margin-left: calc(var(--list-indent) - var(--prefix-size))
+}
+ul.List25 {
+counter-reset: section251;
+--prefix-size: 40px;
+--prefix-gap: 4px;
+--list-indent: 40px;
+--prefix-fixed-size: false;
+list-style:none;
+padding-left: var(--prefix-size);
+margin-left: calc(var(--list-indent) - var(--prefix-size))
+}
+p.ListParagraph {
+    font-family: Symbol;
+    font-size: 11pt;
+    line-height: 108%;
+    margin-top: 0;
+    margin-left: 0;
+    margin-right: 0;
+    margin-bottom: .001pt;
+    font-style: normal;
+    font-weight: normal
+}
+table.NormalTable {
+    border-collapse: collapse;
+    margin-bottom: .001pt
+}
+body {}
+ol.List22>li {
+ position: relative
+}
+ol.List22>li::before {
+counter-increment: section221;
+content:counter(section221,decimal)".";
+--prefix-size: 40px;
+--prefix-gap: 4px;
+--list-indent: 40px;
+--prefix-fixed-size: false;
+text-align: right;
+position: absolute;
+left: calc(-1 * var(--prefix-size) - var(--prefix-gap));
+margin-right: var(--prefix-gap);
+width: var(--prefix-size);
+overflow: hidden
+}
+span { white-space: pre-wrap
+}
+ul.List23>li {
+ position: relative
+}
+ul.List23>li::before {
+counter-increment: section231;
+content:counter(bullet,disc);
+--prefix-size: 40px;
+--prefix-gap: 4px;
+--list-indent: 40px;
+--prefix-fixed-size: false;
+text-align: right;
+position: absolute;
+left: calc(-1 * var(--prefix-size) - var(--prefix-gap));
+margin-right: var(--prefix-gap);
+width: var(--prefix-size);
+overflow: hidden
+}
+ul.List24>li {
+ position: relative
+}
+ul.List24>li::before {
+counter-increment: section241;
+content:counter(bullet,disc);
+--prefix-size: 40px;
+--prefix-gap: 4px;
+--list-indent: 40px;
+--prefix-fixed-size: false;
+text-align: right;
+position: absolute;
+left: calc(-1 * var(--prefix-size) - var(--prefix-gap));
+margin-right: var(--prefix-gap);
+width: var(--prefix-size);
+overflow: hidden
+}
+ul.List24>li>ul {
+counter-reset: section242;
+--prefix-size: 40px;
+--prefix-gap: 4px;
+--list-indent: 40px;
+--prefix-fixed-size: false;
+list-style:none;
+padding-left: var(--prefix-size);
+margin-left: calc(var(--list-indent) - var(--prefix-size))
+}
+ul.List24>li>ul>li {
+ position: relative
+}
+ul.List24>li>ul>li::before {
+counter-increment: section242;
+content:counter(bullet,circle);
+--prefix-size: 40px;
+--prefix-gap: 4px;
+--list-indent: 40px;
+--prefix-fixed-size: false;
+text-align: right;
+position: absolute;
+left: calc(-1 * var(--prefix-size) - var(--prefix-gap));
+margin-right: var(--prefix-gap);
+width: var(--prefix-size);
+overflow: hidden
+}
+ul.List24>li>ul>li>ul {
+counter-reset: section243;
+--prefix-size: 40px;
+--prefix-gap: 4px;
+--list-indent: 40px;
+--prefix-fixed-size: false;
+list-style:none;
+padding-left: var(--prefix-size);
+margin-left: calc(var(--list-indent) - var(--prefix-size))
+}
+ul.List24>li>ul>li>ul>li {
+ position: relative
+}
+ul.List24>li>ul>li>ul>li::before {
+counter-increment: section243;
+content:counter(bullet,square);
+--prefix-size: 40px;
+--prefix-gap: 4px;
+--list-indent: 40px;
+--prefix-fixed-size: false;
+text-align: right;
+position: absolute;
+left: calc(-1 * var(--prefix-size) - var(--prefix-gap));
+margin-right: var(--prefix-gap);
+width: var(--prefix-size);
+overflow: hidden
+}
+ul.List25>li {
+ position: relative
+}
+ul.List25>li::before {
+counter-increment: section251;
+content:counter(bullet,square);
+--prefix-size: 40px;
+--prefix-gap: 4px;
+--list-indent: 40px;
+--prefix-fixed-size: false;
+text-align: right;
+position: absolute;
+left: calc(-1 * var(--prefix-size) - var(--prefix-gap));
+margin-right: var(--prefix-gap);
+width: var(--prefix-size);
+overflow: hidden
+}

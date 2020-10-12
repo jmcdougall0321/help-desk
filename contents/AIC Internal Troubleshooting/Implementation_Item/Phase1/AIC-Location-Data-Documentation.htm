@@ -1,0 +1,817 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <meta charset="UTF-8" />
+  <title>Location Data Documentation</title>
+  <meta name="generator" content="Adobe RoboHelp 2019" />
+  <link rel="stylesheet" href="../../../assets/css/default.css" />
+  <link rel="stylesheet" href="../../../assets/css/AIC - Location Data Documentation for robohelp.css" />
+</head>
+<body>
+  <div>
+    <h1> </h1>
+    <h1 class="ChapterTitle"><a id="_Toc205281622"></a><span class="ChapterTitleChar">Location Data Documentation</span></h1>
+    <p class="BodyText">This document outlines the details for loading location (facility) information by Applications International Corporation.</p>
+    <p class="BodyText">Path (Where Found in Source Safe):</p>
+    <p class="BodyText">Created By: Cathy Landt</p>
+    <p class="BodyText">Created On: 7/25/2008</p>
+    <p class="BodyText">Updated By: Amy Perry</p>
+    <p class="BodyText">Updated On: 03/22/2012</p>
+    <div align="left">
+      <table border="1" cellpadding="1" cellspacing="1" style="border-collapse:collapse;" width="100%">
+        <tbody>
+          <tr>
+            <td>
+              <p class="BodyText">Domain:</p>
+              <p class="BodyText">[X] Client Specific</p>
+              <p class="BodyText">[ ] Development</p>
+              <p class="BodyText">[ ] Business</p>
+              <p class="BodyText">[ ] Management</p>
+              <p class="BodyText">[ ] Sales/Marketing</p>
+              <p class="BodyText"> </p>
+            </td>
+            <td>
+              <p class="BodyText">Security:</p>
+              <p class="BodyText">[ ] AIC Management</p>
+              <p class="BodyText">[X] AIC Internal</p>
+              <p class="BodyText">[ ] Shared Public</p>
+              <p class="BodyText"> </p>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <p class="BodyText"> </p>
+    <h2><a id="_Toc205281623"></a>Table of Contents</h2>
+    <p class="TOC1"><a href="../../../AIC-Location-Data-Documentation-for-robohelp.htm#_Toc205281622">Location Data Documentation</a></p>
+    <p class="TOC2"><a href="../../../AIC-Location-Data-Documentation-for-robohelp.htm#_Toc205281623">Table of Contents</a></p>
+    <p class="TOC2"><a href="../../../AIC-Location-Data-Documentation-for-robohelp.htm#_Toc205281624">Revision History</a></p>
+    <p class="TOC2"><a href="../../../AIC-Location-Data-Documentation-for-robohelp.htm#_Toc205281625">Location Fields</a></p>
+    <p class="TOC2"><a href="../../../AIC-Location-Data-Documentation-for-robohelp.htm#_Toc205281626">Related Documents</a></p>
+    <p class="TOC2"><a href="../../../AIC-Location-Data-Documentation-for-robohelp.htm#_Toc205281627">Contacts</a></p>
+    <p> </p>
+    <p class="BodyText"> </p>
+    <h2><br />
+      ‎<a id="_Toc205281624"></a><span>Revision History</span></h2>
+    <div align="left">
+      <table border="1" cellpadding="1" cellspacing="1" style="border-collapse:collapse;" width="100%">
+        <tbody>
+          <tr>
+            <td>
+              <p class="BodyText">Date Changed</p>
+            </td>
+            <td>
+              <p class="BodyText">Changed By</p>
+            </td>
+            <td>
+              <p class="BodyText">What Changed</p>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <p class="BodyText">7/31/2008</p>
+            </td>
+            <td>
+              <p class="BodyText">Chris Lewis</p>
+            </td>
+            <td>
+              <p class="BodyText">Removed spaces from column headers and replaced with under scores.</p>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <p class="BodyText">4/6/2009</p>
+            </td>
+            <td>
+              <p class="BodyText">Cathy Landt</p>
+            </td>
+            <td>
+              <p class="BodyText">Added Organization Level field</p>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <p class="BodyText">03/22/2012</p>
+            </td>
+            <td>
+              <p class="BodyText">Amy Perry</p>
+            </td>
+            <td>
+              <p class="BodyText">Technical Contacts</p>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <p class="BodyText">06/27/2016</p>
+            </td>
+            <td>
+              <p class="BodyText">Amy Perry</p>
+            </td>
+            <td>
+              <p class="BodyText">Required Fields</p>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <p class="BodyText"> </p>
+    <h2> </h2>
+    <h2> </h2>
+    <h2> </h2>
+    <h2><br />
+      ‎<a id="_Toc202695040"></a><a id="_Toc205281625"></a>Location Fields<span> </span></h2>
+    <p class="BodyText">The following fields are accepted and stored by AIC.</p>
+    <div align="left">
+      <table border="1" cellpadding="1" cellspacing="1" style="border-collapse:collapse;" width="100%">
+        <tbody>
+          <tr>
+            <td>
+              <p>#</p>
+            </td>
+            <td>
+              <p>FIELD</p>
+            </td>
+            <td>
+              <p>DESCRIPTION</p>
+            </td>
+            <td>
+              <p>FORMAT/NOTES</p>
+            </td>
+            <td>
+              <p>EXAMPLE VALUE</p>
+            </td>
+            <td>
+              <p>REQUIRED</p>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <p>1</p>
+            </td>
+            <td>
+              <p>Organization_Level</p>
+            </td>
+            <td>
+              <p>Level from Org Structure</p>
+            </td>
+            <td>
+              <p> </p>
+            </td>
+            <td>
+              <p>US/Manufacturing</p>
+            </td>
+            <td>
+              <p>Y</p>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <p>2</p>
+            </td>
+            <td>
+              <p>Name</p>
+            </td>
+            <td>
+              <p>Common Location Name</p>
+            </td>
+            <td>
+              <p> </p>
+            </td>
+            <td>
+              <p>San Diego, CA</p>
+            </td>
+            <td>
+              <p>Y</p>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <p>3</p>
+            </td>
+            <td>
+              <p>Establishment_Name</p>
+            </td>
+            <td>
+              <p>Formal Location Name</p>
+            </td>
+            <td>
+              <p>For OSHA Forms</p>
+            </td>
+            <td>
+              <p>Genco Corp - San Diego, CA</p>
+            </td>
+            <td>
+              <p>Y</p>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <p>4</p>
+            </td>
+            <td>
+              <p>Nature_Business</p>
+            </td>
+            <td>
+              <p> </p>
+            </td>
+            <td>
+              <p> </p>
+            </td>
+            <td>
+              <p>Manufacturing</p>
+            </td>
+            <td>
+              <p>N</p>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <p>5</p>
+            </td>
+            <td>
+              <p>SIC_Code </p>
+            </td>
+            <td>
+              <p> </p>
+            </td>
+            <td>
+              <p> </p>
+            </td>
+            <td>
+              <p>3442</p>
+            </td>
+            <td>
+              <p>N</p>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <p>6</p>
+            </td>
+            <td>
+              <p>FEIN </p>
+            </td>
+            <td>
+              <p> </p>
+            </td>
+            <td>
+              <p> </p>
+            </td>
+            <td>
+              <p>111122223</p>
+            </td>
+            <td>
+              <p>N</p>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <p>7</p>
+            </td>
+            <td>
+              <p>NAICS </p>
+            </td>
+            <td>
+              <p> </p>
+            </td>
+            <td>
+              <p> </p>
+            </td>
+            <td>
+              <p>314999</p>
+            </td>
+            <td>
+              <p>N</p>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <p>8</p>
+            </td>
+            <td>
+              <p>Closed_Date</p>
+            </td>
+            <td>
+              <p>Date Closed for In-Active locations</p>
+            </td>
+            <td>
+              <p>MM/DD/YYYY</p>
+            </td>
+            <td>
+              <p>06/15/2005</p>
+            </td>
+            <td>
+              <p>N</p>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <p>9</p>
+            </td>
+            <td>
+              <p>Active</p>
+            </td>
+            <td>
+              <p>Is location active</p>
+            </td>
+            <td>
+              <p>Y or N</p>
+            </td>
+            <td>
+              <p>Y</p>
+            </td>
+            <td>
+              <p>N</p>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <p>10</p>
+            </td>
+            <td>
+              <p>EE_EDI_Code</p>
+            </td>
+            <td>
+              <p>Location code for incoming employee file</p>
+            </td>
+            <td>
+              <p> </p>
+            </td>
+            <td>
+              <p>523SANDIEGO</p>
+            </td>
+            <td>
+              <p>N</p>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <p>11</p>
+            </td>
+            <td>
+              <p>Case_Number_Code</p>
+            </td>
+            <td>
+              <p>Location identifier to be inserted in case numbers</p>
+            </td>
+            <td>
+              <p> </p>
+            </td>
+            <td>
+              <p>SD</p>
+            </td>
+            <td>
+              <p>N</p>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <p>12</p>
+            </td>
+            <td>
+              <p>Location_Code</p>
+            </td>
+            <td>
+              <p>Internal code used to identify locations</p>
+            </td>
+            <td>
+              <p> </p>
+            </td>
+            <td>
+              <p>523</p>
+            </td>
+            <td>
+              <p>Y</p>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <p>13</p>
+            </td>
+            <td>
+              <p>WC_EDI_Code</p>
+            </td>
+            <td>
+              <p>Location code for outgoing WC cases</p>
+            </td>
+            <td>
+              <p> </p>
+            </td>
+            <td>
+              <p>523</p>
+            </td>
+            <td>
+              <p>N</p>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <p>14</p>
+            </td>
+            <td>
+              <p>Phone</p>
+            </td>
+            <td>
+              <p> </p>
+            </td>
+            <td>
+              <p> No formatting</p>
+            </td>
+            <td>
+              <p>8585652121</p>
+            </td>
+            <td>
+              <p>N</p>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <p>15</p>
+            </td>
+            <td>
+              <p>Fax</p>
+            </td>
+            <td>
+              <p> </p>
+            </td>
+            <td>
+              <p> No formatting</p>
+            </td>
+            <td>
+              <p>8585652122</p>
+            </td>
+            <td>
+              <p>N</p>
+            </td>
+          </tr>
+          <tr>
+            <td colspan="6">
+              <p>Physical Address</p>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <p>16</p>
+            </td>
+            <td>
+              <p>Address1 </p>
+            </td>
+            <td rowspan="7">
+              <p>Physical Address of the Location</p>
+            </td>
+            <td>
+              <p> </p>
+            </td>
+            <td>
+              <p>1234 Main Street</p>
+            </td>
+            <td>
+              <p>Y</p>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <p>17</p>
+            </td>
+            <td>
+              <p>Address2</p>
+            </td>
+            <td>
+              <p> </p>
+            </td>
+            <td>
+              <p>Suite 250</p>
+            </td>
+            <td>
+              <p>N</p>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <p>18</p>
+            </td>
+            <td>
+              <p>City </p>
+            </td>
+            <td>
+              <p> </p>
+            </td>
+            <td>
+              <p>San Diego</p>
+            </td>
+            <td>
+              <p>Y</p>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <p>19</p>
+            </td>
+            <td>
+              <p>County</p>
+            </td>
+            <td>
+              <p> </p>
+            </td>
+            <td>
+              <p>San Diego</p>
+            </td>
+            <td>
+              <p>N</p>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <p>20</p>
+            </td>
+            <td>
+              <p>Country </p>
+            </td>
+            <td>
+              <p> </p>
+            </td>
+            <td>
+              <p>USA</p>
+            </td>
+            <td>
+              <p>Y</p>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <p>21</p>
+            </td>
+            <td>
+              <p>State_Prov</p>
+            </td>
+            <td>
+              <p> </p>
+            </td>
+            <td>
+              <p>CA</p>
+            </td>
+            <td>
+              <p>Y</p>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <p>22</p>
+            </td>
+            <td>
+              <p>Postal_Code</p>
+            </td>
+            <td>
+              <p> No formatting</p>
+            </td>
+            <td>
+              <p>92128</p>
+            </td>
+            <td>
+              <p>N</p>
+            </td>
+          </tr>
+          <tr>
+            <td colspan="6">
+              <p>Mailing Address</p>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <p>23</p>
+            </td>
+            <td>
+              <p>Mail_Address1 </p>
+            </td>
+            <td rowspan="7">
+              <p>Mailing Address of the Location</p>
+            </td>
+            <td>
+              <p> </p>
+            </td>
+            <td>
+              <p>1234 Main Street</p>
+            </td>
+            <td>
+              <p>Y</p>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <p>24</p>
+            </td>
+            <td>
+              <p>Mail_Address2</p>
+            </td>
+            <td>
+              <p> </p>
+            </td>
+            <td>
+              <p>Suite 250</p>
+            </td>
+            <td>
+              <p>N</p>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <p>25</p>
+            </td>
+            <td>
+              <p>Mail_City </p>
+            </td>
+            <td>
+              <p> </p>
+            </td>
+            <td>
+              <p>San Diego</p>
+            </td>
+            <td>
+              <p>Y</p>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <p>26</p>
+            </td>
+            <td>
+              <p>Mail_County</p>
+            </td>
+            <td>
+              <p> </p>
+            </td>
+            <td>
+              <p>San Diego</p>
+            </td>
+            <td>
+              <p>N</p>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <p>27</p>
+            </td>
+            <td>
+              <p>Mail_Country </p>
+            </td>
+            <td>
+              <p> </p>
+            </td>
+            <td>
+              <p>USA</p>
+            </td>
+            <td>
+              <p>Y</p>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <p>28</p>
+            </td>
+            <td>
+              <p>Mail_State_Prov</p>
+            </td>
+            <td>
+              <p> </p>
+            </td>
+            <td>
+              <p>CA</p>
+            </td>
+            <td>
+              <p>Y</p>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <p>29</p>
+            </td>
+            <td>
+              <p>Mail_Postal_Code</p>
+            </td>
+            <td>
+              <p> No formatting</p>
+            </td>
+            <td>
+              <p>92128</p>
+            </td>
+            <td>
+              <p>N</p>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <p> </p>
+    <p><br />
+      ‎<span>Required Fields</span></p>
+    <p> </p>
+    <p>The following data elements are required:</p>
+    <ul class="List15" data-start="1" xmlns="">
+      <li>ORGANIZATION LEVEL</li>
+      <li>NAME</li>
+      <li>ESTABLISHMENT NAME</li>
+      <li>ADDRESS 1</li>
+      <li>CITY</li>
+      <li>COUNTRY</li>
+      <li>STATE/PROV</li>
+      <li>LOCATION CODE</li>
+    </ul>
+    <p> </p>
+    <h2><a id="_Toc205281626"></a>Related Documents</h2>
+    <p class="BodyText">Please use the Excel template to provide your location (facility) information to be loaded into the application.</p>
+    <p class="BodyText"> </p>
+    <div align="left">
+      <table border="1" cellpadding="1" cellspacing="1" style="border-collapse:collapse;" width="100%">
+        <tbody>
+          <tr>
+            <td>
+              <p class="TableHeader">Resource</p>
+            </td>
+            <td>
+              <p class="TableHeader">Description</p>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <p>Location - Org Structure Template.xls</p>
+            </td>
+            <td>
+              <p class="Table">AIC Load Location Data Excel Template</p>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <p class="BodyText"> </p>
+    <p class="BodyText">Once you’ve added all your locations (facilities) to the template, email it to the AIC contacts referenced below.</p>
+    <h2><a id="_Toc205281627"></a><br />
+      ‎<span>Contacts</span></h2>
+    <p>Please identify the AIC and client contacts for this process.</p>
+    <p> </p>
+    <div align="left">
+      <table border="1" cellpadding="1" cellspacing="1" style="border-collapse:collapse;" width="100%">
+        <tbody>
+          <tr>
+            <td>
+              <p class="BodyText">Client/AIC</p>
+            </td>
+            <td>
+              <p class="BodyText">Name</p>
+            </td>
+            <td>
+              <p class="BodyText">Phone</p>
+            </td>
+            <td>
+              <p class="BodyText">Email</p>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <p class="BodyText">AIC</p>
+            </td>
+            <td>
+              <p class="BodyText">AIC Support</p>
+            </td>
+            <td>
+              <p class="BodyText">(858) 673-2174</p>
+            </td>
+            <td>
+              <p class="BodyText"><a href="mailto:aicsupport@appsint.com">aicsupport@appsint.com</a></p>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <p class="BodyText">Client</p>
+            </td>
+            <td>
+              <p class="BodyText"> </p>
+            </td>
+            <td>
+              <p class="BodyText"> </p>
+            </td>
+            <td>
+              <p class="BodyText"> </p>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <p class="BodyText">Client</p>
+            </td>
+            <td>
+              <p class="BodyText"> </p>
+            </td>
+            <td>
+              <p class="BodyText"> </p>
+            </td>
+            <td>
+              <p class="BodyText"> </p>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <p class="BodyText"> </p>
+  </div>
+</body>
+</html>

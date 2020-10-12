@@ -1,0 +1,31 @@
+
+  
+    Claim Submission Troubleshoot
+    Polaris has called in regarding an issue with submitting a claim to Sedgwick. The Client Account Number and Unit number are mapped in the location and it doesn’t seem to be recognizing it. Also it’s not recognizing the SCMS Servicing Office number 211 in the claim submission settings.
+     
+    I checked everything that we set up in the tables and all check out fine.
+     
+     
+    Is there anything else we can do?
+     
+     
+    At this point Dev would need to look under the hood to find out where it is looking for this information,
+     
+    Task 28579: POLARIS - Claim Submission Issue
+     
+     
+    Polaris has the “SEDGWICK.GeneralDetails.Use.LocationCode” Claim Submission Setting set to “Y”. When this setting is in use, Claim Submission looks at the Location Code that is selected on the incident’s General Details tab. If the user selects and saves a Location Code for that record, they should be able to submit the claim.
+     
+     
+     
+     
+     
+     
+     
+     
+    Can’t believe I didn’t catch that. I will have the client select the location code then try to submit. I appreciate your help with this!
+     
+    Thanks!
+     
+  
+

@@ -1,0 +1,46 @@
+
+  
+    Duplicate Alerts
+    So, you receive an email that the user is getting duplicate alerts, here is how to determine what’s going on…
+    
+     
+     
+    Step 1 - What alert are they receiving duplicates of?
+    
+      Alert Type
+      Alert Name
+         
+        Step 2 – Verify the duplicates are sending, and who is getting them:
+      
+      Check the tools module > alerts sent module item, is there alert there?
+      Who is getting duplicates, is it only one user or is it multiple?
+        
+          Its only one user – this probably means this user has another user account (either a duplicate user account or a ‘test’ account they created on purposes), this other account ALSO has their email tied to it, and they are subscribed to the alert with both accounts meaning they are getting it twice.
+          More than one user is getting duplicates – this probably means that there are 2 of the same alert set up, likely by different users, causing it to send twice.
+            Step 3 - Check the alert setup:
+          
+        
+      
+      Navigate to the alerts module > alerts module item
+      Locate the alert in the grid, it is active?
+      Edit the alert, is the user subscribed more than one time to the same alert via duplicate user accounts?
+      Is there more than one of the same type of alert that is active?
+    
+    Step 4 – You determine there is an issue with the system, not the alert or the user emails:
+    
+      
+        
+          You find the alert was not sent and the alert is setup properly.
+        
+      
+      Create a TFS task (bug) detailing the issue
+      Email the client and provide the task number, letting them know you will follow up once there is an update.
+        
+          Follow up once the task is fixed/released to prod
+        
+      
+    
+    
+     
+  
+

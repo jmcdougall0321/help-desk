@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <script type="text/javascript" language="JavaScript">
+    //<![CDATA[
+    function reDo() {
+      if (innerWidth != origWidth || innerHeight != origHeight)
+        location.reload();
+    }
+    if ((parseInt(navigator.appVersion) == 4) && (navigator.appName == "Netscape")) {
+      origWidth = innerWidth;
+      origHeight = innerHeight;
+      onresize = reDo;
+    }
+    onerror = null;
+    //]]>
+  </script>
+  <style type="text/css">
+    /*<![CDATA[*/
+    < !-- div.WebHelpPopupMenu {
+      position: absolute;
+      left: 0px;
+      top: 0px;
+      z-index: 4;
+      visibility: hidden;
+    }
+    p.WebHelpNavBar {
+      text-align: right;
+    }
+    -->
+    /*]]>*/
+  </style>
+  <script type="text/javascript">
+    //<![CDATA[
+    gRootRelPath = "..";
+    gCommonRootRelPath = "..";
+    gTopicId = "3.0_7";
+    //]]>
+  </script>
+  <script type="text/javascript" src="../template/scripts/rh.min.js"></script>
+  <script type="text/javascript" src="../template/scripts/common.min.js"></script>
+  <script type="text/javascript" src="../template/scripts/topic.min.js"></script>
+  <script type="text/javascript" src="../template/scripts/topicwidgets.min.js"></script>
+  <link rel="stylesheet" type="text/css" href="../template/styles/topic.min.css" />
+  <meta charset="UTF-8" />
+  <title>Regulatory Compliance </title>
+  <meta name="generator" content="Adobe RoboHelp 2019" />
+  <link rel="stylesheet" href="../assets/css/default.css" />
+  <link rel="stylesheet" href="../assets/css/Regulatory Compliance for robohelp.css" />
+</head>
+<body>
+  <div>
+    <p><span style="font-size:28px;font-weight:bold">Regulatory Compliance</span></p>
+    <p><span style="font-size:20px;font-weight:bold">Step 1</span>: User will login to the application and navigate to the Regulatory Compliance Module.</p>
+    <p><span style="font-size:20px;font-weight:bold">Step2: </span>There will be 4 Module items for the Regulatory Compliance Module in order to accomplish Compliance requirement goals.</p>
+    <ol class="List1" data-start="1" xmlns="">
+      <li>Regulatory Compliance Requirements</li>
+      <li>Permit Details</li>
+      <li>Requirement Details</li>
+      <li>Location Profile</li>
+    </ol>
+    <p><span style="font-size:20px;font-weight:bold">Step 3:</span> The Regulatory Compliance Requirements Module Item will be used to create the main data elements for tracking and reporting. These will be the events, permits, licenses, etc. that can either be a standalone project for tracking or can be combined to make up a larger requirement.</p>
+    <p><span style="font-size:20px;font-weight:bold">Step 4: </span>The Permit Details Module Item will be used for maintaining the location based permits and any additional requirements associated with any permits. This involves the examination of various client defined qualifications and renewal procedures as well as verification that specified requirements have been met.</p>
+    <p><span style="font-size:20px;font-weight:bold">Step 5:</span> The Requirement Details Module Item will be used for maintaining the location based requirements. This involves the examination of various client defined qualifications and renewal procedures as well as verification that specified requirements have been met within the specified recurrence patterns.</p>
+    <p><span style="font-size:20px;font-weight:bold">Step 6:</span> The Location Profile Module Item will be used as the Dashboard for viewing the comprehensive list of All Regulatory Compliance Requirement Details as well as any supporting documentation tied back to individual Locations.</p>
+    <p><span style="font-size:20px;font-weight:bold">Step 7: </span>The Regulatory Agency Module Item from the Administration Module will be used for adding and maintaining client defined Reporting Agencies that are requiring these action items in order to ensure and assess compliance. These values will flow to Regulatory Compliance.</p>
+    <p><span style="font-size:20px;font-weight:bold">Step 8:</span> The Responsible Person Mini Tab within the Location Input Screen is used as an administrative function for assigning Regulatory Compliance responsible people for each location. Each location can have unique responsible people as well as one default responsible person.</p>
+    <p><span style="font-size:20px;font-weight:bold">Step 9:</span> All of the outlined changes will have its data flow to the Report Builder, Activity Calendar, as well as the automated outbound alerts.</p>
+    <p><span style="font-weight:bold;"><span style="font-size:20px;">Reoccurrence Pattern Logic</span></span></p>
+    <p>--no end date/default out specific range</p>
+    <p>Daily Requirement: Will show out to 30 DAYS Weekly Requirement: Will show out to 4 WEEKS Monthly Requirement: Will show out to 3 MONTHS Yearly Requirement: Will show out to 2 YEARS</p>
+    <p>--has end date</p>
+    <p>Daily Requirement: Will show out to 30 DAYS Weekly Requirement: Will show out to 4 WEEKS Monthly Requirement: Will show out to 3 MONTHS Yearly Requirement: Will show out to 1 YEAR</p>
+    <p><span style="font-weight:bold;"><span style="font-size:20px;">Triggering Reoccurrence Early</span></span></p>
+    <ol class="List0" data-start="1" xmlns="">
+      <li>If you would like to trigger the recurrence pattern before the end of the day, you will need to find the Requirement (you would like to trigger the job for) from the Regulatory Compliance Requirements Module Item and highlight the record in the search grid</li>
+      <li>Click on the Assign Locations button</li>
+      <li>Make no changes to the record (unless changes are needed)</li>
+      <li>Click the Save and Close button
+        <ol data-start="4.1">
+          <li>The Save and Close button is what is driving the Assignment and Recurrence pattern associated with all of the previously assigned requirements. By clicking the save and close button on the “Regulatory Compliance Requirement Assignment Input Form” you are triggering the job that will create any additional requirement occurrences based on any changes to the record.</li>
+        </ol>
+      </li>
+    </ol>
+    <p> </p>
+  </div>
+</body>
+</html>

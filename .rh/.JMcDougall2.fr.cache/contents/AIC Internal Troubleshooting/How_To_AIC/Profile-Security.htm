@@ -1,0 +1,27 @@
+
+  
+    Profile Security
+    I was looking through this bug [Task 29134: BUG - ASRC: Case Status] and it looks like ASRC is missing the FIELDS section within Profile Security.
+     
+    The fields section ‘Case Status’ is what will control the field within the form. The FORM ACTIONS do not control these – these are tied to the OLD General Details form.
+     
+    DEV – What needs to be done for this database to be updated?
+     
+     
+    
+    
+     
+     
+     
+     
+     
+     
+    The only thing that needs to happen is remove the Module Item/Save and Close, re-add it and save and close. I have done this for ADMIN AIC Profile:
+     
+    
+     
+     
+     
+     
+  
+

@@ -1,0 +1,37 @@
+
+  
+    Regulatory Compliance
+    Step 1: User will login to the application and navigate to the Regulatory Compliance Module.
+    Step2: There will be 4 Module items for the Regulatory Compliance Module in order to accomplish Compliance requirement goals.
+    
+      Regulatory Compliance Requirements
+      Permit Details
+      Requirement Details
+      Location Profile
+    
+    Step 3: The Regulatory Compliance Requirements Module Item will be used to create the main data elements for tracking and reporting. These will be the events, permits, licenses, etc. that can either be a standalone project for tracking or can be combined to make up a larger requirement.
+    Step 4: The Permit Details Module Item will be used for maintaining the location based permits and any additional requirements associated with any permits. This involves the examination of various client defined qualifications and renewal procedures as well as verification that specified requirements have been met.
+    Step 5: The Requirement Details Module Item will be used for maintaining the location based requirements. This involves the examination of various client defined qualifications and renewal procedures as well as verification that specified requirements have been met within the specified recurrence patterns.
+    Step 6: The Location Profile Module Item will be used as the Dashboard for viewing the comprehensive list of All Regulatory Compliance Requirement Details as well as any supporting documentation tied back to individual Locations.
+    Step 7: The Regulatory Agency Module Item from the Administration Module will be used for adding and maintaining client defined Reporting Agencies that are requiring these action items in order to ensure and assess compliance. These values will flow to Regulatory Compliance.
+    Step 8: The Responsible Person Mini Tab within the Location Input Screen is used as an administrative function for assigning Regulatory Compliance responsible people for each location. Each location can have unique responsible people as well as one default responsible person.
+    Step 9: All of the outlined changes will have its data flow to the Report Builder, Activity Calendar, as well as the automated outbound alerts.
+    Reoccurrence Pattern Logic
+    --no end date/default out specific range
+    Daily Requirement: Will show out to 30 DAYS Weekly Requirement: Will show out to 4 WEEKS Monthly Requirement: Will show out to 3 MONTHS Yearly Requirement: Will show out to 2 YEARS
+    --has end date
+    Daily Requirement: Will show out to 30 DAYS Weekly Requirement: Will show out to 4 WEEKS Monthly Requirement: Will show out to 3 MONTHS Yearly Requirement: Will show out to 1 YEAR
+    Triggering Reoccurrence Early
+    
+      If you would like to trigger the recurrence pattern before the end of the day, you will need to find the Requirement (you would like to trigger the job for) from the Regulatory Compliance Requirements Module Item and highlight the record in the search grid
+      Click on the Assign Locations button
+      Make no changes to the record (unless changes are needed)
+      Click the Save and Close button
+        
+          The Save and Close button is what is driving the Assignment and Recurrence pattern associated with all of the previously assigned requirements. By clicking the save and close button on the “Regulatory Compliance Requirement Assignment Input Form” you are triggering the job that will create any additional requirement occurrences based on any changes to the record.
+        
+      
+    
+     
+  
+

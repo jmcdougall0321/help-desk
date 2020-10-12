@@ -1,0 +1,35 @@
+{
+	"folders": [
+		{
+			"path": "..\\..\\..\\Documents\\GitHub\\rbhelp2"
+		},
+		{
+			"path": "..\\.rh"
+		},
+		{
+			"path": "."
+		},
+		{
+			"path": "..\\contents"
+		},
+		{
+			"path": "..\\glossary"
+		},
+		{
+			"path": "..\\index"
+		},
+		{
+			"path": "..\\publish"
+		},
+		{
+			"path": "..\\settings"
+		},
+		{
+			"path": "..\\toc"
+		},
+		{
+			"path": "..\\variable"
+		}
+	],
+	"settings": {}
+}

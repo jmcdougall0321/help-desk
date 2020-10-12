@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <meta charset="UTF-8" />
+  <title>Claim Submission Troubleshoot</title>
+  <meta name="generator" content="Adobe RoboHelp 2019" />
+  <link rel="stylesheet" href="../../assets/css/default.css" />
+  <link rel="stylesheet" href="../../assets/css/Claim Submission Troubleshoot04092019.css" />
+</head>
+<body>
+  <div>
+    <p><span style="font-size:28px;font-weight:bold">Claim Submission Troubleshoot</span></p>
+    <p>Polaris has called in regarding an issue with submitting a claim to Sedgwick. The Client Account Number and Unit number are mapped in the location and it doesn’t seem to be recognizing it. Also it’s not recognizing the SCMS Servicing Office number 211 in the claim submission settings.</p>
+    <p> </p>
+    <p>I checked everything that we set up in the tables and all check out fine.</p>
+    <p> </p>
+    <p> </p>
+    <p>Is there anything else we can do?</p>
+    <p> </p>
+    <p> </p>
+    <p>At this point Dev would need to look under the hood to find out where it is looking for this information,</p>
+    <p> </p>
+    <p><a href="http://tfs2018:8080/tfs/DefaultCollection/AICEnterprise/_workitems/edit/28579?fullScreen=false">Task 28579</a>: POLARIS - Claim Submission Issue</p>
+    <p> </p>
+    <p> </p>
+    <p>Polaris has the “SEDGWICK.GeneralDetails.Use.LocationCode” Claim Submission Setting set to “Y”. When this setting is in use, Claim Submission looks at the Location Code that is selected on the incident’s General Details tab. If the user selects and saves a Location Code for that record, they should be able to submit the claim.</p>
+    <p> </p>
+    <p> </p>
+    <p> </p>
+    <p> </p>
+    <p> </p>
+    <p> </p>
+    <p> </p>
+    <p> </p>
+    <p>Can’t believe I didn’t catch that. I will have the client select the location code then try to submit. I appreciate your help with this!</p>
+    <p> </p>
+    <p>Thanks!</p>
+    <p> </p>
+  </div>
+</body>
+</html>

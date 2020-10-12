@@ -1,0 +1,806 @@
+
+  
+     
+    Location Data Documentation
+    This document outlines the details for loading location (facility) information by Applications International Corporation.
+    Path (Where Found in Source Safe):
+    Created By: Cathy Landt
+    Created On: 7/25/2008
+    Updated By: Amy Perry
+    Updated On: 03/22/2012
+    
+      
+        
+          
+            
+              Domain:
+              [X] Client Specific
+              [ ] Development
+              [ ] Business
+              [ ] Management
+              [ ] Sales/Marketing
+               
+            
+            
+              Security:
+              [ ] AIC Management
+              [X] AIC Internal
+              [ ] Shared Public
+               
+            
+          
+        
+      
+    
+     
+    Table of Contents
+    Location Data Documentation
+    Table of Contents
+    Revision History
+    Location Fields
+    Related Documents
+    Contacts
+     
+     
+    
+      ‎Revision History
+    
+      
+        
+          
+            
+              Date Changed
+            
+            
+              Changed By
+            
+            
+              What Changed
+            
+          
+          
+            
+              7/31/2008
+            
+            
+              Chris Lewis
+            
+            
+              Removed spaces from column headers and replaced with under scores.
+            
+          
+          
+            
+              4/6/2009
+            
+            
+              Cathy Landt
+            
+            
+              Added Organization Level field
+            
+          
+          
+            
+              03/22/2012
+            
+            
+              Amy Perry
+            
+            
+              Technical Contacts
+            
+          
+          
+            
+              06/27/2016
+            
+            
+              Amy Perry
+            
+            
+              Required Fields
+            
+          
+        
+      
+    
+     
+     
+     
+     
+    
+      ‎Location Fields 
+    The following fields are accepted and stored by AIC.
+    
+      
+        
+          
+            
+              #
+            
+            
+              FIELD
+            
+            
+              DESCRIPTION
+            
+            
+              FORMAT/NOTES
+            
+            
+              EXAMPLE VALUE
+            
+            
+              REQUIRED
+            
+          
+          
+            
+              1
+            
+            
+              Organization_Level
+            
+            
+              Level from Org Structure
+            
+            
+               
+            
+            
+              US/Manufacturing
+            
+            
+              Y
+            
+          
+          
+            
+              2
+            
+            
+              Name
+            
+            
+              Common Location Name
+            
+            
+               
+            
+            
+              San Diego, CA
+            
+            
+              Y
+            
+          
+          
+            
+              3
+            
+            
+              Establishment_Name
+            
+            
+              Formal Location Name
+            
+            
+              For OSHA Forms
+            
+            
+              Genco Corp - San Diego, CA
+            
+            
+              Y
+            
+          
+          
+            
+              4
+            
+            
+              Nature_Business
+            
+            
+               
+            
+            
+               
+            
+            
+              Manufacturing
+            
+            
+              N
+            
+          
+          
+            
+              5
+            
+            
+              SIC_Code 
+            
+            
+               
+            
+            
+               
+            
+            
+              3442
+            
+            
+              N
+            
+          
+          
+            
+              6
+            
+            
+              FEIN 
+            
+            
+               
+            
+            
+               
+            
+            
+              111122223
+            
+            
+              N
+            
+          
+          
+            
+              7
+            
+            
+              NAICS 
+            
+            
+               
+            
+            
+               
+            
+            
+              314999
+            
+            
+              N
+            
+          
+          
+            
+              8
+            
+            
+              Closed_Date
+            
+            
+              Date Closed for In-Active locations
+            
+            
+              MM/DD/YYYY
+            
+            
+              06/15/2005
+            
+            
+              N
+            
+          
+          
+            
+              9
+            
+            
+              Active
+            
+            
+              Is location active
+            
+            
+              Y or N
+            
+            
+              Y
+            
+            
+              N
+            
+          
+          
+            
+              10
+            
+            
+              EE_EDI_Code
+            
+            
+              Location code for incoming employee file
+            
+            
+               
+            
+            
+              523SANDIEGO
+            
+            
+              N
+            
+          
+          
+            
+              11
+            
+            
+              Case_Number_Code
+            
+            
+              Location identifier to be inserted in case numbers
+            
+            
+               
+            
+            
+              SD
+            
+            
+              N
+            
+          
+          
+            
+              12
+            
+            
+              Location_Code
+            
+            
+              Internal code used to identify locations
+            
+            
+               
+            
+            
+              523
+            
+            
+              Y
+            
+          
+          
+            
+              13
+            
+            
+              WC_EDI_Code
+            
+            
+              Location code for outgoing WC cases
+            
+            
+               
+            
+            
+              523
+            
+            
+              N
+            
+          
+          
+            
+              14
+            
+            
+              Phone
+            
+            
+               
+            
+            
+               No formatting
+            
+            
+              8585652121
+            
+            
+              N
+            
+          
+          
+            
+              15
+            
+            
+              Fax
+            
+            
+               
+            
+            
+               No formatting
+            
+            
+              8585652122
+            
+            
+              N
+            
+          
+          
+            
+              Physical Address
+            
+          
+          
+            
+              16
+            
+            
+              Address1 
+            
+            
+              Physical Address of the Location
+            
+            
+               
+            
+            
+              1234 Main Street
+            
+            
+              Y
+            
+          
+          
+            
+              17
+            
+            
+              Address2
+            
+            
+               
+            
+            
+              Suite 250
+            
+            
+              N
+            
+          
+          
+            
+              18
+            
+            
+              City 
+            
+            
+               
+            
+            
+              San Diego
+            
+            
+              Y
+            
+          
+          
+            
+              19
+            
+            
+              County
+            
+            
+               
+            
+            
+              San Diego
+            
+            
+              N
+            
+          
+          
+            
+              20
+            
+            
+              Country 
+            
+            
+               
+            
+            
+              USA
+            
+            
+              Y
+            
+          
+          
+            
+              21
+            
+            
+              State_Prov
+            
+            
+               
+            
+            
+              CA
+            
+            
+              Y
+            
+          
+          
+            
+              22
+            
+            
+              Postal_Code
+            
+            
+               No formatting
+            
+            
+              92128
+            
+            
+              N
+            
+          
+          
+            
+              Mailing Address
+            
+          
+          
+            
+              23
+            
+            
+              Mail_Address1 
+            
+            
+              Mailing Address of the Location
+            
+            
+               
+            
+            
+              1234 Main Street
+            
+            
+              Y
+            
+          
+          
+            
+              24
+            
+            
+              Mail_Address2
+            
+            
+               
+            
+            
+              Suite 250
+            
+            
+              N
+            
+          
+          
+            
+              25
+            
+            
+              Mail_City 
+            
+            
+               
+            
+            
+              San Diego
+            
+            
+              Y
+            
+          
+          
+            
+              26
+            
+            
+              Mail_County
+            
+            
+               
+            
+            
+              San Diego
+            
+            
+              N
+            
+          
+          
+            
+              27
+            
+            
+              Mail_Country 
+            
+            
+               
+            
+            
+              USA
+            
+            
+              Y
+            
+          
+          
+            
+              28
+            
+            
+              Mail_State_Prov
+            
+            
+               
+            
+            
+              CA
+            
+            
+              Y
+            
+          
+          
+            
+              29
+            
+            
+              Mail_Postal_Code
+            
+            
+               No formatting
+            
+            
+              92128
+            
+            
+              N
+            
+          
+        
+      
+    
+     
+    
+      ‎Required Fields
+     
+    The following data elements are required:
+    
+      ORGANIZATION LEVEL
+      NAME
+      ESTABLISHMENT NAME
+      ADDRESS 1
+      CITY
+      COUNTRY
+      STATE/PROV
+      LOCATION CODE
+    
+     
+    Related Documents
+    Please use the Excel template to provide your location (facility) information to be loaded into the application.
+     
+    
+      
+        
+          
+            
+              Resource
+            
+            
+              Description
+            
+          
+          
+            
+              Location - Org Structure Template.xls
+            
+            
+              AIC Load Location Data Excel Template
+            
+          
+        
+      
+    
+     
+    Once you’ve added all your locations (facilities) to the template, email it to the AIC contacts referenced below.
+    
+      ‎Contacts
+    Please identify the AIC and client contacts for this process.
+     
+    
+      
+        
+          
+            
+              Client/AIC
+            
+            
+              Name
+            
+            
+              Phone
+            
+            
+              Email
+            
+          
+          
+            
+              AIC
+            
+            
+              AIC Support
+            
+            
+              (858) 673-2174
+            
+            
+              aicsupport@appsint.com
+            
+          
+          
+            
+              Client
+            
+            
+               
+            
+            
+               
+            
+            
+               
+            
+          
+          
+            
+              Client
+            
+            
+               
+            
+            
+               
+            
+            
+               
+            
+          
+        
+      
+    
+     
+  
+

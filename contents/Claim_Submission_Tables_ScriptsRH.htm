@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <meta charset="UTF-8" />
+  <title>ClaimSubmissionTableScripts</title>
+  <meta name="generator" content="Adobe RoboHelp 2019" />
+  <link rel="stylesheet" href="assets/css/default.css" />
+  <link rel="stylesheet" href="assets/css/Claim Submission Tables_ScriptsRH.css" />
+</head>
+<body>
+  <div>
+    <p class="TOCHeading"> </p>
+    <p> </p>
+    <p><br />
+      ‎<span> </span></p>
+    <h1><a id="_Toc511734805"></a>ECM70_INSURANCE_TPA Location Input Form &gt; Claim Submission Details Mini Tab&gt;Insurance TPA</h1>
+    <ul class="List19" data-start="1" xmlns="">
+      <li>Table to control which TPA(s) are active to appear on Location Input Form &gt; Claim Submission Details Mini Tab&gt;Insurance TPA dropdown field.</li>
+      <li><img alt="Picture 3" height="226" src="assets/images/Claim Submission Tables_ScriptsRH_files/image1.png" width="944" /></li>
+      <li>[ECM70_TPA_TYPE_N]
+        <ul data-start="3.1">
+          <li>Types:
+            <ul data-start="3.1.1">
+              <li>1=WC</li>
+              <li>2=Auto
+                <ul data-start="3.1.2.1">
+                  <li>ESIS</li>
+                  <li>Zurich</li>
+                  <li>GB</li>
+                  <li>CCMSI</li>
+                  <li>Travelers</li>
+                  <li>Sedgwick</li>
+                </ul>
+              </li>
+              <li>3=Fire
+                <ul data-start="3.1.3.1">
+                  <li>ESIS</li>
+                </ul>
+              </li>
+              <li>4=Other Incident
+                <ul data-start="3.1.4.1">
+                  <li>ESIS</li>
+                </ul>
+              </li>
+              <li>5=Property Damage
+                <ul data-start="3.1.5.1">
+                  <li>ESIS</li>
+                </ul>
+              </li>
+              <li>6=Spill
+                <ul data-start="3.1.6.1">
+                  <li>ESIS</li>
+                </ul>
+              </li>
+              <li>7=GL
+                <ul data-start="3.1.7.1">
+                  <li>GB</li>
+                </ul>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </li>
+      <li>Script Sample:
+        <p class="Header">USE [BRACETRAINING]</p>
+        <p class="Header">GO</p>
+        <p class="Header"> </p>
+        <p class="Header">UPDATE [dbo].[ECM70_INSURANCE_TPA]</p>
+        <p class="Header">SET [ECM70_SYS_ACTIVE_F] = &#39;N&#39;</p>
+        <p class="Header">,[ECM70_SYS_UPDT_USR] = -432</p>
+        <p class="Header">,[ECM70_SYS_UPDT_DTM] = GETDATE()</p>
+        <p class="Header">WHERE ECM70_INSURANCE_TPA_ID = 5</p>
+        <p class="Header"> </p>
+        <p class="Header">UPDATE [dbo].[ECM70_INSURANCE_TPA]</p>
+        <p class="Header">SET [ECM70_SYS_ACTIVE_F] = &#39;Y&#39;</p>
+        <p class="Header">,[ECM70_SYS_UPDT_USR] = -432</p>
+        <p class="Header">,[ECM70_SYS_UPDT_DTM] = GETDATE()</p>
+        <p class="Header">WHERE ECM70_INSURANCE_TPA_ID = 32</p>
+        <p class="Header">GO</p>
+        <p class="Header"> </p>
+        <p><br />
+          ‎<span> </span></p>
+        <h1><a id="_Toc511734806"></a>ECM71_ORG_ENTITY_INSURANCE_TPA Location Input Form &gt; Claim Submission Details Mini Tab&gt;Insurance TPA</h1>
+      </li>
+      <li>Table to assign/set the TPA on the Claim Submission Details mini tab Insurance TPA field</li>
+      <li><img alt="Picture 8" height="225" src="assets/images/Claim Submission Tables_ScriptsRH_files/image2.png" width="940" /></li>
+      <li>[ECM00_ORG_ENTITY_ID]
+        <ul data-start="7.1">
+          <li>Location AIC ID</li>
+        </ul>
+      </li>
+      <li>[ECM70_INSURANCE_TPA_ID]
+        <ul data-start="8.1">
+          <li>TPA ID from [ECM70_INSURANCE_TPA] (i.e. 23=Liberty Mutual)</li>
+        </ul>
+      </li>
+      <li>Script Sample:</li>
+    </ul>
+    <p class="Header">USE [BRACE_TEST]</p>
+    <p class="Header">GO</p>
+    <p class="Header"> </p>
+    <p class="Header">INSERT INTO [dbo].[ECM71_ORG_ENTITY_INSURANCE_TPA] ([ECM00_ORG_ENTITY_ID],[ECM70_INSURANCE_TPA_ID],[ECM71_SYS_ACTIVE_F],[ECM71_SYS_CREATOR_USR],[ECM71_SYS_CREATED_DTM],[ECM71_SYS_UPDT_USR],[ECM71_SYS_UPDT_DTM],[ECM71_TPA_TYPE_N]) VALUES (1106,32,&#39;Y&#39;,-432,GETDATE(),-432,GETDATE(),1)</p>
+    <p class="Header">INSERT INTO [dbo].[ECM71_ORG_ENTITY_INSURANCE_TPA] ([ECM00_ORG_ENTITY_ID],[ECM70_INSURANCE_TPA_ID],[ECM71_SYS_ACTIVE_F],[ECM71_SYS_CREATOR_USR],[ECM71_SYS_CREATED_DTM],[ECM71_SYS_UPDT_USR],[ECM71_SYS_UPDT_DTM],[ECM71_TPA_TYPE_N]) VALUES (1095,32,&#39;Y&#39;,-432,GETDATE(),-432,GETDATE(),1)</p>
+    <p class="Header">INSERT INTO [dbo].[ECM71_ORG_ENTITY_INSURANCE_TPA] ([ECM00_ORG_ENTITY_ID],[ECM70_INSURANCE_TPA_ID],[ECM71_SYS_ACTIVE_F],[ECM71_SYS_CREATOR_USR],[ECM71_SYS_CREATED_DTM],[ECM71_SYS_UPDT_USR],[ECM71_SYS_UPDT_DTM],[ECM71_TPA_TYPE_N]) VALUES (1102,32,&#39;Y&#39;,-432,GETDATE(),-432,GETDATE(),1)</p>
+    <p class="Header">GO</p>
+    <p class="Header"> </p>
+    <p><br />
+      ‎<span> </span></p>
+    <h1><a id="_Toc511734807"></a>ORG_ENTITY Location Input Form &gt; Claim Submission Details Mini Tab&gt;EDI Location Code field</h1>
+    <ul class="List1" data-start="1" xmlns="">
+      <li>Table/Field that populates the EDI Location Code field on the Claim Submission Details mini tab on the Locations Input Form.</li>
+      <li>[GB_CODE]
+        <ul data-start="2.1">
+          <li>TPA code that appears Location Input Form &gt; Claim Submission Details Mini Tab&gt;EDI Location Code field</li>
+          <li><img alt="Picture 7" height="214" src="assets/images/Claim Submission Tables_ScriptsRH_files/image3.png" width="899" /></li>
+        </ul>
+      </li>
+      <li>Script Sample:
+        <p class="Header">USE [BRACETRAINING]</p>
+        <p class="Header">GO</p>
+        <p class="Header"> </p>
+        <p class="Header">UPDATE [dbo].[ORG_ENTITY] SET [SYS_UPDT_USR] = -432,[SYS_UPDT_DTM] = GETDATE(),[GB_CODE] = &#39;010101XX&#39; WHERE [ORG_ENTITY_ID] = 1093</p>
+        <p class="Header">UPDATE [dbo].[ORG_ENTITY] SET [SYS_UPDT_USR] = -432,[SYS_UPDT_DTM] = GETDATE(),[GB_CODE] = &#39;020101XX&#39; WHERE [ORG_ENTITY_ID] = 1113</p>
+        <p class="Header">UPDATE [dbo].[ORG_ENTITY] SET [SYS_UPDT_USR] = -432,[SYS_UPDT_DTM] = GETDATE(),[GB_CODE] = &#39;020102XX&#39; WHERE [ORG_ENTITY_ID] = 1109</p>
+        <p class="Header">UPDATE [dbo].[ORG_ENTITY] SET [SYS_UPDT_USR] = -432,[SYS_UPDT_DTM] = GETDATE(),[GB_CODE] = &#39;020103XX&#39; WHERE [ORG_ENTITY_ID] = 1097</p>
+        <p class="Header">GO</p>
+        <p class="Header"> </p>
+        <p><br />
+          ‎<span> </span></p>
+        <h1><a id="_Toc511734808"></a>ORG_ENTITY_CODE Administration&gt;Claim Submission Location Codes</h1>
+      </li>
+      <li>Table to assign Code and Description on the Claim Submission Location Codes Form.</li>
+      <li><img alt="Picture 5" src="assets/images/Claim Submission Tables_ScriptsRH_files/image4.png" /></li>
+      <li>[ORG_ENTITY_ID]
+        <ul data-start="6.1">
+          <li>Location AIC ID</li>
+        </ul>
+      </li>
+      <li>[CODE]
+        <ul data-start="7.1">
+          <li>TPA WC Location Code</li>
+        </ul>
+      </li>
+      <li>[DESCRIPTION]
+        <ul data-start="8.1">
+          <li>Location Code description that is displayed in the Location Code dropdown field on the General Details Main Tab.</li>
+          <li><img alt="Picture 6" height="182" src="assets/images/Claim Submission Tables_ScriptsRH_files/image5.png" width="916" /></li>
+        </ul>
+      </li>
+      <li>Script Sample
+        <p class="Header">USE [BRACETRAINING]</p>
+        <p class="Header">GO</p>
+        <p class="Header"> </p>
+        <p class="Header">UPDATE [dbo].[ORG_ENTITY_CODE] SET [CODE] = &#39;010101XX&#39;, [DESCRIPTION] = &#39;010101XX&#39; WHERE ORG_ENTITY_CODE_ID = 26</p>
+        <p class="Header">UPDATE [dbo].[ORG_ENTITY_CODE] SET [CODE] = &#39;020101XX&#39;, [DESCRIPTION] = &#39;020101XX&#39; WHERE ORG_ENTITY_CODE_ID = 45</p>
+        <p class="Header">UPDATE [dbo].[ORG_ENTITY_CODE] SET [CODE] = &#39;020102XX&#39;, [DESCRIPTION] = &#39;020102XX&#39; WHERE ORG_ENTITY_CODE_ID = 40</p>
+        <p class="Header">GO</p>
+        <p class="Header"> </p>
+        <p><br />
+          ‎<span> </span></p>
+        <h1><a id="_Toc511734809"></a>IMM203_INCIDENT_MODULE_ORG_ENTITY_CODE Administration&gt;Claim Submission Location Codes</h1>
+      </li>
+      <li>Table to assign incident module to Claim Submission Location Codes.</li>
+      <li><img alt="Picture 4" src="assets/images/Claim Submission Tables_ScriptsRH_files/image6.png" /></li>
+      <li>[ORG_ENTITY_CODE_ID]
+        <ul data-start="12.1">
+          <li>Location AIC ID</li>
+        </ul>
+      </li>
+      <li>[IMM05_INCIDENT_MODULE_ID]
+        <ul data-start="13.1">
+          <li>AIC Module ID from [IMM05_INCIDENT_MODULE]
+            <ul data-start="13.1.1">
+              <li>Modules:
+                <ul data-start="13.1.1.1">
+                  <li>1<span> </span>=Injury and Illness (Recordable or Non Recordable)</li>
+                  <li>2=Fires</li>
+                  <li>3=Spills</li>
+                  <li>6=Property Damage</li>
+                  <li>7=Other Incident</li>
+                  <li>9=Vehicle Accident</li>
+                  <li>22=General Liability</li>
+                </ul>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </li>
+      <li>Script Sample</li>
+    </ul>
+    <p class="Header">USE [BRACE_TEST]</p>
+    <p class="Header">GO</p>
+    <p class="Header"> </p>
+    <p class="Header">INSERT INTO [dbo].[IMM203_INCIDENT_MODULE_ORG_ENTITY_CODE] ([ORG_ENTITY_CODE_ID],[IMM05_INCIDENT_MODULE_ID],[IMM203_SYS_CREATOR_USR],[IMM203_SYS_CREATED_DTM],[IMM203_SYS_UPDT_USR],[IMM203_SYS_UPDT_DTM],[IMM203_SYS_ACTIVE_F]) VALUES (27,1,-432,GETDATE(),-432,GETDATE(),&#39;Y&#39;)</p>
+    <p class="Header">INSERT INTO [dbo].[IMM203_INCIDENT_MODULE_ORG_ENTITY_CODE] ([ORG_ENTITY_CODE_ID],[IMM05_INCIDENT_MODULE_ID],[IMM203_SYS_CREATOR_USR],[IMM203_SYS_CREATED_DTM],[IMM203_SYS_UPDT_USR],[IMM203_SYS_UPDT_DTM],[IMM203_SYS_ACTIVE_F]) VALUES (26,1,-432,GETDATE(),-432,GETDATE(),&#39;Y&#39;)</p>
+    <p class="Header">INSERT INTO [dbo].[IMM203_INCIDENT_MODULE_ORG_ENTITY_CODE] ([ORG_ENTITY_CODE_ID],[IMM05_INCIDENT_MODULE_ID],[IMM203_SYS_CREATOR_USR],[IMM203_SYS_CREATED_DTM],[IMM203_SYS_UPDT_USR],[IMM203_SYS_UPDT_DTM],[IMM203_SYS_ACTIVE_F]) VALUES (34,1,-432,GETDATE(),-432,GETDATE(),&#39;Y&#39;)</p>
+    <p class="Header">INSERT INTO [dbo].[IMM203_INCIDENT_MODULE_ORG_ENTITY_CODE] ([ORG_ENTITY_CODE_ID],[IMM05_INCIDENT_MODULE_ID],[IMM203_SYS_CREATOR_USR],[IMM203_SYS_CREATED_DTM],[IMM203_SYS_UPDT_USR],[IMM203_SYS_UPDT_DTM],[IMM203_SYS_ACTIVE_F]) VALUES (32,1,-432,GETDATE(),-432,GETDATE(),&#39;Y&#39;)</p>
+    <p class="Header">GO</p>
+    <p class="Header"> </p>
+    <p><br />
+      ‎<span> </span></p>
+    <h1><a id="_Toc511734810"></a>ECM115_TPA_CODE_MAPPING</h1>
+    <ul class="List10" data-start="1" xmlns="">
+      <li>Table to map AIC values to TPA values. (certain TPAs, not all – Some TPAs map in each value table (i.e. Nature of Injury, Body Part))</li>
+      <li>[ECM115_TPA_ID]
+        <ul data-start="2.1">
+          <li>TPA ID from [ECM70_INSURANCE_TPA] (i.e. 23=Liberty Mutual)</li>
+        </ul>
+      </li>
+      <li>[ECM115_DATABASE_TABLE_X]
+        <ul data-start="3.1">
+          <li>Code database table (i.e. MARITAL_STATUS, GENDER)</li>
+        </ul>
+      </li>
+      <li>[ECM115_CODE_ID]
+        <ul data-start="4.1">
+          <li>AIC ID of value (i.e. Gender 1=Female, 2=Male)</li>
+        </ul>
+      </li>
+      <li>[ECM115_CODE_X]
+        <ul data-start="5.1">
+          <li>TPA code of value (i.e. Gender M=Male, F=Female)</li>
+        </ul>
+      </li>
+    </ul>
+    <p class="Header"> </p>
+    <h1><a id="_Toc511734811"></a>ECM85_CLAIM_SUBMISSION_SETTING AIC Tool&gt;Claim Submission Settings</h1>
+    <ul class="List1" data-start="15" xmlns="">
+      <li>Table for Claim Submission Settings.</li>
+    </ul>
+    <p class="Header"> </p>
+  </div>
+</body>
+</html>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <meta charset="UTF-8" />
+  <title>Duplicate Alerts</title>
+  <meta name="generator" content="Adobe RoboHelp 2019" />
+  <link rel="stylesheet" href="../../assets/css/default.css" />
+  <link rel="stylesheet" href="../../assets/css/Duplicate Alerts for robohelp.css" />
+</head>
+<body>
+  <div>
+    <p><span style="font-size:28px;font-weight:bold">Duplicate Alerts</span></p>
+    <p>So, you receive an email that the user is getting duplicate alerts, here is how to determine what’s going on…</p>
+    <p><img alt="þÿ" src="../../assets/images/Duplicate Alerts for robohelp_files/image1.jpeg" /></p>
+    <p> </p>
+    <p> </p>
+    <p><span style="font-size:24px;">Step 1</span> - What alert are they receiving duplicates of?</p>
+    <ul class="List0" data-start="1" xmlns="">
+      <li>Alert Type</li>
+      <li>Alert Name
+        <p> </p>
+        <p><span style="font-size:24px;">Step 2</span> – Verify the duplicates are sending, and who is getting them:</p>
+      </li>
+      <li>Check the tools module &gt; alerts sent module item, is there alert there?</li>
+      <li>Who is getting duplicates, is it only one user or is it multiple?
+        <ul data-start="4.1">
+          <li>Its only one user – this probably means this user has another user account (either a duplicate user account or a ‘test’ account they created on purposes), this other account ALSO has their email tied to it, and they are subscribed to the alert with both accounts meaning they are getting it twice.</li>
+          <li>More than one user is getting duplicates – this probably means that there are 2 of the same alert set up, likely by different users, causing it to send twice.
+            <p><span style="font-size:24px;">Step 3 </span>- Check the alert setup:</p>
+          </li>
+        </ul>
+      </li>
+      <li>Navigate to the alerts module &gt; alerts module item</li>
+      <li>Locate the alert in the grid, it is active?</li>
+      <li>Edit the alert, is the user subscribed more than one time to the same alert via duplicate user accounts?</li>
+      <li>Is there more than one of the same type of alert that is active?</li>
+    </ul>
+    <p><span style="font-size:24px;">Step 4</span> – You determine there is an issue with the system, not the alert or the user emails:</p>
+    <ul class="List1" data-start="1" xmlns="">
+      <li>
+        <ul data-start="1.1">
+          <li>You find the alert was not sent and the alert is setup properly.</li>
+        </ul>
+      </li>
+      <li><a href="TFS_Task_Template.htm">Create a TFS task (bug) detailing the issue</a></li>
+      <li>Email the client and provide the task number, letting them know you will follow up once there is an update.
+        <ul data-start="3.1">
+          <li>Follow up once the task is fixed/released to prod</li>
+        </ul>
+      </li>
+    </ul>
+    <p><img alt="þÿ" height="387" src="../../assets/images/Duplicate Alerts for robohelp_files/image2.jpeg" width="994" /></p>
+    <p> </p>
+  </div>
+</body>
+</html>

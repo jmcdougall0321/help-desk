@@ -1,0 +1,1 @@
+rh._.exports({"0":["TFS Task Template"],"1":["\n  ","\n    ","TFS Task Template","\n    ","Add a new task in TFS","\n    ","Click Templates","\n    ","Click ‘TFS Task Template’","\n    ","Ta-da! A new template will appear in your description, simply fill out the information as usual","\n    ","\n    "," ","\n  ","\n\n"],"id":"32"})

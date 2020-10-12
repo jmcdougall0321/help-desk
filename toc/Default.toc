@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map type="toc">
+  <title>Table of Contents</title>
+  <book navtitle="AIC Internal Troubleshooting" format="html" processing-role="normal">
+    <book navtitle="Administration Overview" format="html" processing-role="normal">
+      <page href="../contents/AIC Internal Troubleshooting/Administration_Overview/Fiscal-Year-Setup.htm" format="html" processing-role="normal"></page>
+      <page href="../contents/AIC Internal Troubleshooting/Administration_Overview/Location-based-pick-list.htm" format="html" processing-role="normal"></page>
+      <page href="../contents/AIC Internal Troubleshooting/Administration_Overview/Location-Setup.htm" format="html" processing-role="normal"></page>
+      <page href="../contents/AIC Internal Troubleshooting/Administration_Overview/Module-based-pick-lists.htm" format="html" processing-role="normal"></page>
+      <page href="../contents/AIC Internal Troubleshooting/Administration_Overview/Subcontractor.htm" format="html" processing-role="normal"></page>
+      <page href="../contents/AIC Internal Troubleshooting/Administration_Overview/User-Role-and-Reporting.htm" format="html" processing-role="normal"></page>
+      <page href="../contents/AIC Internal Troubleshooting/Administration_Overview/Users.htm" format="html" processing-role="normal"></page>
+    </book>
+    <book navtitle="AIC Troubleshooting" format="html" processing-role="normal">
+      <page href="../contents/AIC Internal Troubleshooting/AIC_Troubleshooting/Cheating-on-Training.htm" format="html" processing-role="normal"></page>
+      <page href="../contents/AIC Internal Troubleshooting/AIC_Troubleshooting/Claim-Submission-Troubleshoot04092019.htm" format="html" processing-role="normal"></page>
+      <page href="../contents/AIC Internal Troubleshooting/AIC_Troubleshooting/Claim-Submission.htm" format="html" processing-role="normal"></page>
+      <page href="../contents/AIC Internal Troubleshooting/AIC_Troubleshooting/Communication-Setup.htm" format="html" processing-role="normal"></page>
+      <page href="../contents/AIC Internal Troubleshooting/AIC_Troubleshooting/Custom-Alerts-Evaluations.htm" format="html" processing-role="normal"></page>
+      <page href="../contents/AIC Internal Troubleshooting/AIC_Troubleshooting/Dashboard-Indicator-troubleshooting.htm" format="html" processing-role="normal"></page>
+      <page href="../contents/AIC Internal Troubleshooting/AIC_Troubleshooting/Dashboard-Indicators-Data-to-Represent.htm" format="html" processing-role="normal"></page>
+      <page href="../contents/AIC Internal Troubleshooting/AIC_Troubleshooting/Duplicate-Alerts.htm" format="html" processing-role="normal"></page>
+      <page href="../contents/AIC Internal Troubleshooting/AIC_Troubleshooting/Duplicate-form.htm" format="html" processing-role="normal"></page>
+      <page href="../contents/AIC Internal Troubleshooting/AIC_Troubleshooting/Evaluation-Report.htm" format="html" processing-role="normal"></page>
+      <page href="../contents/AIC Internal Troubleshooting/AIC_Troubleshooting/evaluation_troubleshooting.htm" format="html" processing-role="normal"></page>
+      <page href="../contents/AIC Internal Troubleshooting/AIC_Troubleshooting/fires-module-troubleshoot.htm" format="html" processing-role="normal"></page>
+      <page href="../contents/AIC Internal Troubleshooting/AIC_Troubleshooting/Injury-Illness-Modifications.htm" format="html" processing-role="normal"></page>
+      <page href="../contents/AIC Internal Troubleshooting/AIC_Troubleshooting/OSHA.htm" format="html" processing-role="normal"></page>
+      <page href="../contents/AIC Internal Troubleshooting/AIC_Troubleshooting/Restricted-Days-not-on-OSHA-logs-correctly.htm" format="html" processing-role="normal"></page>
+      <page href="../contents/AIC Internal Troubleshooting/AIC_Troubleshooting/Review-Tab.htm" format="html" processing-role="normal"></page>
+      <page href="../contents/AIC Internal Troubleshooting/AIC_Troubleshooting/Score-Card-Body.htm" format="html" processing-role="normal"></page>
+      <page href="../contents/AIC Internal Troubleshooting/AIC_Troubleshooting/Security_Profile.htm" format="html" processing-role="normal"></page>
+      <page href="../contents/AIC Internal Troubleshooting/AIC_Troubleshooting/Server-Error.htm" format="html" processing-role="normal"></page>
+      <page href="../contents/AIC Internal Troubleshooting/AIC_Troubleshooting/Troubleshooting-Alert04092019.htm" format="html" processing-role="normal"></page>
+      <page href="../contents/AIC Internal Troubleshooting/AIC_Troubleshooting/Troubleshooting-custom.htm" format="html" processing-role="normal"></page>
+      <page href="../contents/AIC Internal Troubleshooting/AIC_Troubleshooting/Uploading-Company-Logo.htm" format="html" processing-role="normal"></page>
+    </book>
+    <book navtitle="How To AIC" format="html" processing-role="normal">
+      <page href="../contents/AIC Internal Troubleshooting/How_To_AIC/Adding-a-TFS-Task.htm" format="html" processing-role="normal"></page>
+      <page href="../contents/AIC Internal Troubleshooting/How_To_AIC/AIC-How-to-Answer-the-Phone.htm" format="html" processing-role="normal"></page>
+      <page href="../contents/AIC Internal Troubleshooting/How_To_AIC/AIC-How-to-Build-an-Online-Course.htm" format="html" processing-role="normal"></page>
+      <page href="../contents/AIC Internal Troubleshooting/How_To_AIC/AIC-Phone-Etiquette.htm" format="html" processing-role="normal"></page>
+      <page href="../contents/AIC Internal Troubleshooting/How_To_AIC/AIC-Procedure-to-Setup-DLM.htm" format="html" processing-role="normal"></page>
+      <page href="../contents/AIC Internal Troubleshooting/How_To_AIC/AIC-RecordingDownloadingConvertingWebExSessions.htm" format="html" processing-role="normal"></page>
+      <page href="../contents/AIC Internal Troubleshooting/How_To_AIC/AIC-Stack-Rank-of-TFS-Tasks.htm" format="html" processing-role="normal"></page>
+      <page href="../contents/AIC Internal Troubleshooting/How_To_AIC/Brief-Recordkeeping-Overview-Presentation-Script.htm" format="html" processing-role="normal"></page>
+      <page href="../contents/AIC Internal Troubleshooting/How_To_AIC/canned-response.htm" format="html" processing-role="normal"></page>
+      <page href="../contents/AIC Internal Troubleshooting/How_To_AIC/Checklist-Loading-CSV-Template.htm" format="html" processing-role="normal"></page>
+      <page href="../contents/AIC Internal Troubleshooting/How_To_AIC/Enable-FLASH-Settings_All-Supported-Browsers-for-robohelp.htm" format="html" processing-role="normal"></page>
+      <page href="../contents/AIC Internal Troubleshooting/How_To_AIC/How-to-Build-New-Dashboards.htm" format="html" processing-role="normal"></page>
+      <page href="../contents/AIC Internal Troubleshooting/How_To_AIC/How-to-Create-Users-in-the-Application.htm" format="html" processing-role="normal"></page>
+      <page href="../contents/AIC Internal Troubleshooting/How_To_AIC/How-To-document-library.htm" format="html" processing-role="normal"></page>
+      <page href="../contents/AIC Internal Troubleshooting/How_To_AIC/How-to-Excel-Basics.htm" format="html" processing-role="normal"></page>
+      <page href="../contents/AIC Internal Troubleshooting/How_To_AIC/How-to-for-printing-the-OSHA-300-Log.htm" format="html" processing-role="normal"></page>
+      <page href="../contents/AIC Internal Troubleshooting/How_To_AIC/HOW-TO-INSTALL-CHARTSFX-MANUALLY.htm" format="html" processing-role="normal"></page>
+      <page href="../contents/AIC Internal Troubleshooting/How_To_AIC/how-to-tools.htm" format="html" processing-role="normal"></page>
+      <page href="../contents/AIC Internal Troubleshooting/How_To_AIC/How-To-Upload-SCORM-package-To-Cloud-for-robohelp.htm" format="html" processing-role="normal"></page>
+      <page href="../contents/AIC Internal Troubleshooting/How_To_AIC/Injury-and-Illness-Module-overview-for-robohelp.htm" format="html" processing-role="normal"></page>
+      <page href="../contents/AIC Internal Troubleshooting/How_To_AIC/JIRA.htm" format="html" processing-role="normal"></page>
+      <page href="../contents/AIC Internal Troubleshooting/How_To_AIC/leveled-evaluation.htm" format="html" processing-role="normal"></page>
+      <page href="../contents/AIC Internal Troubleshooting/How_To_AIC/Linking-AIC-to-Enterprise-HR-Management-System.htm" format="html" processing-role="normal"></page>
+      <page href="../contents/AIC Internal Troubleshooting/How_To_AIC/Meeting-Notes-Template.htm" format="html" processing-role="normal"></page>
+      <page href="../contents/AIC Internal Troubleshooting/How_To_AIC/OSHA-Log-by-Location-Groups.htm" format="html" processing-role="normal"></page>
+      <page href="../contents/AIC Internal Troubleshooting/How_To_AIC/OSHA-Restrictions-DaysAway_Restricted-Duty.htm" format="html" processing-role="normal"></page>
+      <page href="../contents/AIC Internal Troubleshooting/How_To_AIC/Profile-Security.htm" format="html" processing-role="normal"></page>
+      <page href="../contents/AIC Internal Troubleshooting/How_To_AIC/Regulatory-Compliance-tasks.htm" format="html" processing-role="normal"></page>
+      <page href="../contents/AIC Internal Troubleshooting/How_To_AIC/Regulatory-Compliance.htm" format="html" processing-role="normal"></page>
+      <page href="../contents/AIC Internal Troubleshooting/How_To_AIC/report-builder-employee-hours.htm" format="html" processing-role="normal"></page>
+      <page href="../contents/AIC Internal Troubleshooting/How_To_AIC/Severity-Consequence-Matrix-PDF.htm" format="html" processing-role="normal"></page>
+      <page href="../contents/AIC Internal Troubleshooting/How_To_AIC/TFS-Task-Template.htm" format="html" processing-role="normal"></page>
+      <page href="../contents/AIC Internal Troubleshooting/How_To_AIC/WebEx-How-To_s.htm" format="html" processing-role="normal"></page>
+      <page href="../contents/AIC Internal Troubleshooting/How_To_AIC/WebEx-Meeting-Request-Format.htm" format="html" processing-role="normal"></page>
+    </book>
+    <book navtitle="Implementation Item" format="html" processing-role="normal">
+      <book navtitle="Phase1" format="html" processing-role="normal">
+        <page href="../contents/AIC Internal Troubleshooting/Implementation_Item/Phase1/AIC-Location-Data-Documentation.htm" format="html" processing-role="normal"></page>
+        <page href="../contents/AIC Internal Troubleshooting/Implementation_Item/Phase1/AIC-Location-Org-Structure-Details-Template.htm" format="html" processing-role="normal"></page>
+        <page href="../contents/AIC Internal Troubleshooting/Implementation_Item/Phase1/Phase-1-Implementation-Fill-In-Worksheet.htm" format="html" processing-role="normal"></page>
+      </book>
+      <book navtitle="Phase3" format="html" processing-role="normal">
+        <page href="../contents/AIC Internal Troubleshooting/Implementation_Item/Phase3/AIC-New-Profiles-and-Security-SetuP-Projects-Site.htm" format="html" processing-role="normal"></page>
+        <page href="../contents/AIC Internal Troubleshooting/Implementation_Item/Phase3/Users-CSV-Template.htm" format="html" processing-role="normal"></page>
+      </book>
+      <book navtitle="Phase5" format="html" processing-role="normal">
+        <page href="../contents/AIC Internal Troubleshooting/Implementation_Item/Phase5/AIC-Adding-Clients-to-Quick-Track-and-Projects-Site.htm" format="html" processing-role="normal"></page>
+        <page href="../contents/AIC Internal Troubleshooting/Implementation_Item/Phase5/AIC-Disposal-Vendor-Historical-Data-Template.htm" format="html" processing-role="normal"></page>
+        <page href="../contents/AIC Internal Troubleshooting/Implementation_Item/Phase5/AIC-LMS-Customization-Tables.htm" format="html" processing-role="normal"></page>
+        <page href="../contents/AIC Internal Troubleshooting/Implementation_Item/Phase5/AIC-Observation-and-Question-Template.htm" format="html" processing-role="normal"></page>
+        <page href="../contents/AIC Internal Troubleshooting/Implementation_Item/Phase5/AIC-Observation-Historical-Data-with-Field-Description.htm" format="html" processing-role="normal"></page>
+        <page href="../contents/AIC Internal Troubleshooting/Implementation_Item/Phase5/AIC_RecommendedScorecardIndicators.htm" format="html" processing-role="normal"></page>
+        <page href="../contents/AIC Internal Troubleshooting/Implementation_Item/Phase5/Benefits-of-Custom-Profile-Levels.htm" format="html" processing-role="normal"></page>
+        <page href="../contents/AIC Internal Troubleshooting/Implementation_Item/Phase5/CIENT-TEMPLATE.htm" format="html" processing-role="normal"></page>
+        <page href="../contents/AIC Internal Troubleshooting/Implementation_Item/Phase5/Complaints-Field-Descriptions.htm" format="html" processing-role="normal"></page>
+        <page href="../contents/AIC Internal Troubleshooting/Implementation_Item/Phase5/Copy-of-Injury-Historical-Data-Template-with-MSHA-field-Extended.htm" format="html" processing-role="normal"></page>
+        <page href="../contents/AIC Internal Troubleshooting/Implementation_Item/Phase5/CorrectiveActionsExcel.htm" format="html" processing-role="normal"></page>
+        <page href="../contents/AIC Internal Troubleshooting/Implementation_Item/Phase5/Environmental-Incidents-Field-Descriptions.htm" format="html" processing-role="normal"></page>
+        <page href="../contents/AIC Internal Troubleshooting/Implementation_Item/Phase5/Environmental-Incidents-Historical-Data-Template.htm" format="html" processing-role="normal"></page>
+        <page href="../contents/AIC Internal Troubleshooting/Implementation_Item/Phase5/Fires-Field-Descriptions.htm" format="html" processing-role="normal"></page>
+        <page href="../contents/AIC Internal Troubleshooting/Implementation_Item/Phase5/Fires-Historical-Data-Template.htm" format="html" processing-role="normal"></page>
+        <page href="../contents/AIC Internal Troubleshooting/Implementation_Item/Phase5/GL-Historical-Data-Field-Description.htm" format="html" processing-role="normal"></page>
+        <page href="../contents/AIC Internal Troubleshooting/Implementation_Item/Phase5/GL-Historical-Data-Template.htm" format="html" processing-role="normal"></page>
+        <page href="../contents/AIC Internal Troubleshooting/Implementation_Item/Phase5/Historical-Data-Activity-Calendar-Template.htm" format="html" processing-role="normal"></page>
+        <page href="../contents/AIC Internal Troubleshooting/Implementation_Item/Phase5/Historical-Injury-Data-Template-and-Field-Descriptions.htm" format="html" processing-role="normal"></page>
+        <page href="../contents/AIC Internal Troubleshooting/Implementation_Item/Phase5/Implementation-Plan-Template.htm" format="html" processing-role="normal"></page>
+        <page href="../contents/AIC Internal Troubleshooting/Implementation_Item/Phase5/Incdient-Cost-Data-012819.htm" format="html" processing-role="normal"></page>
+        <page href="../contents/AIC Internal Troubleshooting/Implementation_Item/Phase5/IndustrialHygiene_CSV-TEMPLATE_FieldListDescriptionhtm.htm" format="html" processing-role="normal"></page>
+        <page href="../contents/AIC Internal Troubleshooting/Implementation_Item/Phase5/Injury-Illness_Sentinel_V-2.htm" format="html" processing-role="normal"></page>
+        <page href="../contents/AIC Internal Troubleshooting/Implementation_Item/Phase5/JSA-Historical-Data-Template.htm" format="html" processing-role="normal"></page>
+        <page href="../contents/AIC Internal Troubleshooting/Implementation_Item/Phase5/LMS-_-Get-Rolling-Session.htm" format="html" processing-role="normal"></page>
+        <page href="../contents/AIC Internal Troubleshooting/Implementation_Item/Phase5/Locations-CSV-Template.htm" format="html" processing-role="normal"></page>
+        <page href="../contents/AIC Internal Troubleshooting/Implementation_Item/Phase5/Nature-of-Injury-CSV-Template.htm" format="html" processing-role="normal"></page>
+        <page href="../contents/AIC Internal Troubleshooting/Implementation_Item/Phase5/Near-Miss-Field-Descriptions.htm" format="html" processing-role="normal"></page>
+        <page href="../contents/AIC Internal Troubleshooting/Implementation_Item/Phase5/Near-Miss-Historical-Data-Template.htm" format="html" processing-role="normal"></page>
+        <page href="../contents/AIC Internal Troubleshooting/Implementation_Item/Phase5/New-Client-Site-Checklist.htm" format="html" processing-role="normal"></page>
+        <page href="../contents/AIC Internal Troubleshooting/Implementation_Item/Phase5/Phased-Implementation_for-Clients.htm" format="html" processing-role="normal"></page>
+        <page href="../contents/AIC Internal Troubleshooting/Implementation_Item/Phase5/Questions-for-System-Administrators-Environmental-Metrics-Solution.htm" format="html" processing-role="normal"></page>
+        <page href="../contents/AIC Internal Troubleshooting/Implementation_Item/Phase5/State-Mapping-Template.htm" format="html" processing-role="normal"></page>
+        <page href="../contents/AIC Internal Troubleshooting/Implementation_Item/Phase5/Training-Group-Employee-Upload-Template.htm" format="html" processing-role="normal"></page>
+      </book>
+    </book>
+    <book navtitle="Internet Settings " format="html" processing-role="normal">
+      <page href="../contents/AIC Internal Troubleshooting/Internet_Settings_/Chrome-Settings.htm" format="html" processing-role="normal"></page>
+      <page href="../contents/AIC Internal Troubleshooting/Internet_Settings_/IE-10-Settings.htm" format="html" processing-role="normal"></page>
+      <page href="../contents/AIC Internal Troubleshooting/Internet_Settings_/IE-11-Settings.htm" format="html" processing-role="normal"></page>
+    </book>
+    <book navtitle="Module Instructions" format="html" processing-role="normal">
+      <page href="../contents/AIC Internal Troubleshooting/Module_Instructions/Activity-Calendar-Module-for-robohelp.htm" format="html" processing-role="normal"></page>
+      <page href="../contents/AIC Internal Troubleshooting/Module_Instructions/Alerts-Module-for-robohelp.htm" format="html" processing-role="normal"></page>
+      <page href="../contents/AIC Internal Troubleshooting/Module_Instructions/Complaints-for-robohelp.htm" format="html" processing-role="normal"></page>
+      <page href="../contents/AIC Internal Troubleshooting/Module_Instructions/eval-Overview.htm" format="html" processing-role="normal"></page>
+      <page href="../contents/AIC Internal Troubleshooting/Module_Instructions/Fires-Module.htm" format="html" processing-role="normal"></page>
+      <page href="../contents/AIC Internal Troubleshooting/Module_Instructions/General-Liability-Module.htm" format="html" processing-role="normal"></page>
+      <page href="../contents/AIC Internal Troubleshooting/Module_Instructions/Job-Postings.htm" format="html" processing-role="normal"></page>
+      <page href="../contents/AIC Internal Troubleshooting/Module_Instructions/KPI-Scorecard-Module.htm" format="html" processing-role="normal"></page>
+      <page href="../contents/AIC Internal Troubleshooting/Module_Instructions/Leading-Indicator-Module-for-robohelp.htm" format="html" processing-role="normal"></page>
+      <page href="../contents/AIC Internal Troubleshooting/Module_Instructions/NOV_Agency-Visit-Module.htm" format="html" processing-role="normal"></page>
+      <page href="../contents/AIC Internal Troubleshooting/Module_Instructions/Observation-Module-for-robohelp.htm" format="html" processing-role="normal"></page>
+      <page href="../contents/AIC Internal Troubleshooting/Module_Instructions/Property-Damage.htm" format="html" processing-role="normal"></page>
+      <page href="../contents/AIC Internal Troubleshooting/Module_Instructions/Report-Center-Module.htm" format="html" processing-role="normal"></page>
+      <page href="../contents/AIC Internal Troubleshooting/Module_Instructions/Spills-Module-.htm" format="html" processing-role="normal"></page>
+      <page href="../contents/AIC Internal Troubleshooting/Module_Instructions/Training-Module-for-robohelp.htm" format="html" processing-role="normal"></page>
+    </book>
+  </book>
+</map>
